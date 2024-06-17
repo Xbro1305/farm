@@ -9,6 +9,8 @@ import fourth from "./images/Frame 25 (3).svg";
 import fifth from "./images/Frame 25 (4).svg";
 import league from "./images/league.svg";
 import group from "./images/Group 1000001775.svg";
+import row from "./images/Group 1000001733.svg";
+import flowers from "./images/flowers.svg";
 
 export const App = () => {
   return (
@@ -56,6 +58,10 @@ export const App = () => {
           </a>
         </div>
       </div>
+      <img src={row} className="row" alt="" />
+      <img src={flowers} className="f1" alt="" />
+      <img src={flowers} className="f2" alt="" />
+      <img src={flowers} className="f3" alt="" />
     </div>
   );
 };
