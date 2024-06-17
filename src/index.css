@@ -1,13 +1,135 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Belanosima";
+  box-sizing: border-box;
+  overscroll-behavior: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  max-width: 430px;
+  width: 100%;
+  background: url(./images/Frame\ 28.png) no-repeat center;
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.main > h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+h1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.51px;
+}
+
+.energy {
+  width: 19px;
+}
+
+.navigation a {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.76px;
+  gap: 10px;
+  border-radius: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.navigation a img {
+  width: 50px;
+}
+
+.navigation > :nth-child(3) {
+  background: #b7630180;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > div h1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer span {
+  background: linear-gradient(
+    180deg,
+    #eab120 17.38%,
+    #b68917 76.88%,
+    #eaa801 95.42%
+  );
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 18px;
+  border: 1px solid #e7a601;
+}
+
+.footer > :nth-child(1) section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
