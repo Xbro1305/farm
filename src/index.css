@@ -6,6 +6,8 @@
   font-family: "Belanosima";
   box-sizing: border-box;
   overscroll-behavior: none;
+  -webkit-text-stroke: 1px #000;
+  text-stroke: 1px #000;
 }
 
 input {
@@ -129,6 +131,8 @@ h1 p {
   padding: 5px 20px;
   border-radius: 18px;
   border: 1px solid #e7a601;
+  -webkit-text-stroke: 0px #fff !important;
+  text-stroke: 0px #fff !important;
 }
 
 .footer > :nth-child(1) section {
@@ -147,4 +151,8 @@ h1 p {
 
 .footer > :nth-child(1) > img {
   width: 100%;
+}
+
+.navigation {
+  background: #bade4a;
 }
